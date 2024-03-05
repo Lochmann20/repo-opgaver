@@ -10,3 +10,15 @@
 
 
 /* Begynd her... */
+.card{
+    display: flex;
+
+}
+
+.img-box{
+    display: flex;
+}
+
+.img-box:first-child, :last-child{
+    align-content: center;
+}
