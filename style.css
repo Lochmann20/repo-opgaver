@@ -59,18 +59,24 @@ article {
 }
 
 .location {
-    color: #C8C9CB;
+    color: black;
     text-transform: uppercase;
     font-size: .95em;
+    font-family: 'Abril Fatface';
 }
 
 .description p {
     text-align: center;
+    font-family: 'roboto';
+    font-size: smaller;
 }
 
 .amenities-details {
     display: flex;
     gap: 1rem;
+    border-top: 0.1px solid grey;    
+    border-bottom: 0.1px solid grey;
+    padding: 15px;
 
     li {
         flex: 1;
@@ -78,7 +84,7 @@ article {
         gap: .75rem;
         place-items: center;
         padding: .25rem;
-        background: #F0F2FF;
+        background: transparent;
         color: #3C55CC;
     }
 }
@@ -108,6 +114,7 @@ footer {
 
     .price {
         font-weight: 600;
+        font-size: x-large;
 
         span {
             color: #908F9F;
