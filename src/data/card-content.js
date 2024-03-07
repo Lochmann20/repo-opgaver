@@ -16,3 +16,5 @@ export const cardContent = [
     body: "Ratios are useful when comparing your company with the competition on financial performance and also when benchmarking the performance of your company.",
   },
 ];
+
+
