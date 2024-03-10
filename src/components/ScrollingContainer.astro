@@ -19,6 +19,8 @@ const { cardContent } = Astro.props;
     display: flex;
     gap: var(--card-gap);
     overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    /* grid-column: full; */
   }
 
   li{
